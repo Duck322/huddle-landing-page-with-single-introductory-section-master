@@ -27,7 +27,10 @@ body {
 }
 
 .huddle-logo {
-  max-width: 50%;
+  padding-top: 37px;
+  padding-left: 34px;
+  padding-bottom: 71px;
+  max-width: 150px;
 }
 
 main {
@@ -39,38 +42,49 @@ main {
 .illustration {
   max-width: 80%;
   max-height: 80%;
+  padding-bottom: 3.75rem;
 }
 
-.description {
+@media only screen and (max-width: 900px) {
+  .description-desktop {
+    display: none;
+  }
+}
+
+.description-mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 3.6875rem;
+  max-width: 70%;
 }
 
 h1 {
   font-family: "Poppins";
-  padding-bottom: 1.5rem;
-  padding-top: 2rem;
+  text-align: center;
+
+  padding-bottom: 1rem;
+
   font-weight: 37.5rem;
-  font-size: 2.5rem;
-  line-height: 3.75rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   color: var(--white);
 }
 
 p {
   font-family: "Open_Sans";
+  text-align: center;
   padding-bottom: 1.5rem;
   font-weight: 25rem;
-  font-size: 1.125rem;
-  line-height: 1.6875rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: var(--white);
   opacity: 70%;
 }
 
 button {
   width: 12.5rem;
-  height: 3.5rem;
+  height: 2.5rem;
+
   border-radius: 1.75rem;
   border: none;
   font-family: "Poppins";
@@ -88,8 +102,9 @@ button {
 }
 
 .social-icons {
+  padding-top: 4rem;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   color: var(--white);
 }
 
