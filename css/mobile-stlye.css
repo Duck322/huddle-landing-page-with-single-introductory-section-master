@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 
 body {
   background-color: var(--violet);
-  background-image: url(../../../images/bg-mobile.svg);
+  background-image: url(../../../../images/bg-mobile.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: cover;
