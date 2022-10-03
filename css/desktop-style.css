@@ -82,6 +82,7 @@ button {
   border: none;
   font-family: "Poppins";
   font-weight: 400;
+  font-size: 1.125rem;
   background-color: var(--white);
   color: var(--violet);
 }
